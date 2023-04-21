@@ -1,0 +1,28 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_header_0_document_0_deskstop.png",
+        "test": "..\\bitmaps_test\\20230420-181402\\backstop_default_header_0_document_0_deskstop.png",
+        "selector": "document",
+        "fileName": "backstop_default_header_0_document_0_deskstop.png",
+        "label": "header",
+        "misMatchThreshold": 0.1,
+        "url": "http://127.0.0.1:5500/index.html",
+        "expect": 0,
+        "viewportLabel": "deskstop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    }
+  ],
+  "id": "backstop_default"
+}
